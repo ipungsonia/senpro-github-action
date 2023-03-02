@@ -47,7 +47,6 @@ jobs:
                 mkdir -p ~/modul2;
                 cd ~/modul02;
                 git clone https://github.com/ipungsonia/senpro-github-action.git;
-                cd ~/modul2/senpro-github-action/
                 echo "Install Package dan Build Project";
                 npm install;
                 npm run build;
